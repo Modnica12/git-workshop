@@ -10,9 +10,9 @@ Button buttonMelodyOne(PIN_BUTTON_MEL_ONE);
 Button buttonOff(PIN_BUTTON_OFF);
 Buzzer buzzer(PIN_BUZZER);
 
-int notes[] = {NOTE_A4, NOTE_SILENCE, NOTE_G4, NOTE_SILENCE};
-double durations[] = {8, 1, 4, 1};
-int melodyLength = 4;
+int notes[] = {NOTE_B4, NOTE_SILENCE, NOTE_G4, NOTE_SILENCE, NOTE_C3, NOTE_SILENCE};
+double durations[] = {8, 1, 4, 1, 2, 1};
+int melodyLength = 6;
 
 // maybe somewhere in the future we will have one more button...
 // #define PIN_BUTTON_MEL_TWO 4
